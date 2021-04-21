@@ -4,7 +4,7 @@ To reproduce:
 
 ```
 $ npm install
-$ node build.js
+$ npm run build
 ```
 
 Then inspect `output.js`.

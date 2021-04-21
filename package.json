@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "scripts": {
+    "build": "esbuild --bundle --external:fs --outfile=output.js input.js"
+  },
   "dependencies": {
     "esbuild": "^0.11.12"
   },
